@@ -1,0 +1,69 @@
+.redressed {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.cc-navbar {
+    background-color: rgba(0, 0, 0, 0.57);
+    font-family: fantasy, sans-serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.btn-order {
+    color: #54BAB9;
+    border-color: #54BAB9;
+    transition: 0.5s;
+}
+
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: #54BAB9;
+}
+
+.banner, .order-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/BRUNCH\ REPAS.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+.order-form{
+    height: 500px;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: aliceblue;
+    background-color: #54BAB9;
+}
+
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.cc-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/fond-menu.jpeg) center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.cc-img {
+    width: 100%;
+    height: 250px;
+}
+
+.row-foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 10px;
+    height: 200px;
+}
